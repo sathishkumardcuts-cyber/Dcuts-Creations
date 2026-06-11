@@ -1,0 +1,19 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; }
+
+body { 
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+    url('https://images.unsplash.com/photo-1542038784456-1ea8e935640e?q=80&w=2070'); 
+    background-size: cover; 
+    height: 100vh; 
+}
+
+.navbar { display: flex; justify-content: space-between; padding: 20px; background: rgba(0,0,0,0.8); color: white; align-items: center; }
+.navbar ul { display: flex; list-style: none; }
+.navbar ul li a { color: white; text-decoration: none; padding: 0 15px; }
+
+.main-container { display: flex; justify-content: center; align-items: center; height: 80vh; }
+.login-box { background: white; padding: 30px; border-radius: 10px; width: 300px; text-align: center; }
+
+input { width: 100%; padding: 10px; margin: 10px 0; }
+button { width: 100%; padding: 10px; background: #d4af37; border: none; cursor: pointer; margin-top: 5px; }
+.settings { margin-top: 20px; border-top: 1px solid #ccc; padding-top: 10px; }
